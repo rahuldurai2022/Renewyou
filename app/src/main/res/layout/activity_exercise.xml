@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ExerciseActivity">
+
+    <!-- 🔙 Back Button -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Back"
+        android:src="@android:drawable/ic_media_previous"
+        android:tint="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- 🏷️ Heading -->
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Today"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/btnBack"
+        android:gravity="center" />
+
+    <!-- 🗓️ Monday -->
+    <Button
+        android:id="@+id/btnMonday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        app:layout_constraintTop_toBottomOf="@id/btnBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <!-- Tuesday -->
+    <Button
+        android:id="@+id/btnTuesday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        app:layout_constraintTop_toBottomOf="@id/btnMonday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Wednesday -->
+    <Button
+        android:id="@+id/btnWednesday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        app:layout_constraintTop_toBottomOf="@id/btnTuesday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Thursday -->
+    <Button
+        android:id="@+id/btnThursday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        app:layout_constraintTop_toBottomOf="@id/btnWednesday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Friday -->
+    <Button
+        android:id="@+id/btnFriday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        app:layout_constraintTop_toBottomOf="@id/btnThursday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Saturday -->
+    <Button
+        android:id="@+id/btnSaturday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        app:layout_constraintTop_toBottomOf="@id/btnFriday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Sunday -->
+    <Button
+        android:id="@+id/btnSunday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        app:layout_constraintTop_toBottomOf="@id/btnSaturday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

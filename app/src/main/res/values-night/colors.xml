@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme palette matching the light scheme but tuned for contrast -->
+    <color name="colorPrimary">#4CD3DB</color>
+    <color name="colorOnPrimary">#00363C</color>
+    <color name="colorPrimaryContainer">#1C4C52</color>
+    <color name="colorOnPrimaryContainer">#A9E7ED</color>
+
+    <color name="colorSecondary">#B9BEFF</color>
+    <color name="colorOnSecondary">#11144B</color>
+    <color name="colorSecondaryContainer">#31358C</color>
+    <color name="colorOnSecondaryContainer">#DEE0FF</color>
+
+    <color name="colorTertiary">#FFB4A4</color>
+    <color name="colorOnTertiary">#4E190A</color>
+    <color name="colorTertiaryContainer">#6C2C1E</color>
+    <color name="colorOnTertiaryContainer">#FFDAD2</color>
+
+    <color name="colorBackground">#0F1113</color>
+    <color name="colorOnBackground">#E2E2E6</color>
+    <color name="colorSurface">#121418</color>
+    <color name="colorOnSurface">#E2E2E6</color>
+    <color name="colorSurfaceVariant">#41464D</color>
+    <color name="colorOnSurfaceVariant">#C3C7CF</color>
+    <color name="colorOutline">#8C9199</color>
+    <color name="colorError">#FFB4AB</color>
+    <color name="colorOnError">#690005</color>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ReNewYou</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_description">This app is designed to support individuals in their recovery journey. It offers features like posture correction, breathing exercises, and fitness tracking to help you stay on track with your wellness goals.</string>
+    
+    <!-- Breathing Exercise Strings -->
+    <string name="back">Back</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    
+    <!-- 4-7-8 Breathing Strings -->
+    <string name="four_seven_eight_breathing">4-7-8 Breathing</string>
+    <string name="breathe_in_for_4_seconds">Breathe in for 4 seconds</string>
+    <string name="breathe_in">Breathe in...</string>
+    <string name="hold">Hold...</string>
+    <string name="breathe_out">Breathe out...</string>
+</resources>
