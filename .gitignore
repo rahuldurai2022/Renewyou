@@ -1,15 +1,72 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+captures/
+
+# Local configuration file (sdk path, keystore path, etc.)
 local.properties
+
+# Gradle files
+.gradle/
+*/build/
+**/build/
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# IntelliJ
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Keystore files (VERY IMPORTANT)
+*.jks
+*.keystore
+
+# Google Services (if used)
+google-services.json
+
+# Jetifier
+.jetifier-cache/
+
+# NDK
+.externalNativeBuild/
+.cxx/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Kotlin
+*.kotlin_module
+
+# Crashlytics
+fabric.properties
+
+# Android Profiling
+*.hprof
+
+# Application-specific cache
+app/build/
